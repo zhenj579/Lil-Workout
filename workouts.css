@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(	253, 204, 149);
+    background-color:rgb(233, 248, 255);
 }
 h1
 {
@@ -26,8 +26,8 @@ table
 }
 #exampleBtn
 {
-    height:100px;
-    width:100px;
+    height:200px;
+    width:200px;
 }
 #exampleBtn:hover
 {

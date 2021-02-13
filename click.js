@@ -2,10 +2,10 @@ function onChestClickEventHandler() {
     var chest = document.getElementById("chest");
     if(chest.style.borderStyle == "outset") {
         chest.style.borderStyle = "inset";
-        chest.style.backgroundColor = " #f59c55";
+        chest.style.backgroundColor = "#fdcc95";
     } else {
         chest.style.borderStyle = "outset";
-        chest.style.backgroundColor = "#fdcc95";
+        chest.style.backgroundColor = "lightblue";
     }
 }
 
@@ -25,10 +25,10 @@ function onLegsClickEventHandler() {
     var legs = document.getElementById("legs");
     if(legs.style.borderStyle == "outset") {
         legs.style.borderStyle = "inset";
-        legs.style.backgroundColor = " #f59c55";
+        legs.style.backgroundColor = "#fdcc95";
     } else {
         legs.style.borderStyle = "outset";
-        legs.style.backgroundColor = "#fdcc95";
+        legs.style.backgroundColor = "lightblue";
     }        		
 }
 
@@ -36,10 +36,10 @@ function onCardioClickEventHandler() {
     var cardio = document.getElementById("cardio");
     if(cardio.style.borderStyle == "outset") {
         cardio.style.borderStyle = "inset";
-        cardio.style.backgroundColor = " #f59c55";
+        cardio.style.backgroundColor = "#fdcc95";
     } else {
         cardio.style.borderStyle = "outset";
-        cardio.style.backgroundColor = "#fdcc95";
+        cardio.style.backgroundColor = "lightblue";
     }        		
 }
 
