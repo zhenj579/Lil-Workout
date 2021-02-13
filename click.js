@@ -49,20 +49,18 @@ function onGenerateClickEventHandler() {
     var legs = document.getElementById("legs");
     var cardio = document.getElementById("cardio");
 
-    var msg = "";
-
+    const choices = [];
     if(chest.style.borderStyle == "inset") {
-        msg = msg.concat("Chest! ");
+        choices.push("chest");
     }
     if(abs.style.borderStyle == "inset") {
-        msg = msg.concat("Abs! ");
+        choices.push("abs");
     }
-       if(legs.style.borderStyle == "inset") {
-        msg = msg.concat("Legs! ");
+    if(legs.style.borderStyle == "inset") {
+        choices.push("legs");
     }
     if(cardio.style.borderStyle == "inset") {
-        msg = msg.concat("Cardio! ");
+        choices.push("cardio");
     }
-
-
+    localStorage.setItem("selected", choices);
 }
