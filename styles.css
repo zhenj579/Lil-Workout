@@ -27,6 +27,11 @@ hr{
     height: 100px;
     width: 200px;
     margin: 40px;
+    border-width: 5px;
+    font-size: 20px;
+    border-style: outset;
+    background-color: rgb(	253, 204, 149);
+    border-color: black;
 }
 #GenerateButton{
     display: flex;
@@ -38,4 +43,5 @@ hr{
     justify-content: center;
     font-style: italic;
     font-weight: bold;
+    margin: 20px;
 }
