@@ -19,17 +19,22 @@ th
     background-color: black;
     color:pink;
 }
-
+td
+{
+    height:200px;
+    width:200px;
+}
 table
 {
     width:100%;
 }
 #exampleBtn
 {
-    height:200px;
-    width:200px;
+    height:150px;
+    width:150px;
 }
 #exampleBtn:hover
 {
-    background-color:gray;
+    height:180px;
+    width:180px;
 }
