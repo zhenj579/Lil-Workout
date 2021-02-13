@@ -55,4 +55,6 @@ function onGenerateClickEventHandler() {
     if(cardio.style.borderStyle == "inset") {
         msg = msg.concat("Cardio! ");
     }
+
+
 }
