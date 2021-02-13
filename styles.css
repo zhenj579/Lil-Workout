@@ -39,6 +39,7 @@ hr{
 }
 
 #quote-display{
+    height: 1.5em;
     display: flex;
     justify-content: center;
     font-style: italic;

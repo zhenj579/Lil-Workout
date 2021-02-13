@@ -1,0 +1,19 @@
+table,th,td
+{
+    border: 1px solid black;
+    border-spacing: 0cm;
+    text-align: center;
+}
+table
+{
+    width:100%;
+}
+#exampleBtn
+{
+    height:100px;
+    width:100px;
+}
+#exampleBtn:hover
+{
+    background-color:gray;
+}
