@@ -32,3 +32,10 @@ hr{
     display: flex;
     justify-content: center;
 }
+
+#quote-display{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lil Workout</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 </head>
 <body>
     <h1>Lil Workout</h1>
     <h2>A Lil Workout a day keeps the lipids away</h2>
     <p id="description"> Due to Covid 19, most people are unable to do physical activity due to the restriction of ...</p>
+    <span id="quote-display"></span>
     <hr>
     <h1>Workouts</h1>
     <div id="WorkoutButtons">
@@ -25,6 +27,16 @@
     <div id="GenerateButton"> 
         <button class="WorkoutButton">Generate Workout!</button>
     </div>
+    <script>
+        var quoteWriter = new Typed('#quote-display', {
+            strings: ["Showing off is the fool's idea of glory",'Adapt what is useful, reject what is useless, and add what is specifically your own.','Knowledge will give you power, but character respect.'],
+            showCursor: false,
+            fadeOut: true,
+            loop: true,
+            typeSpeed: 25,
+            backDelay: 7000
+        });
     
+    </script>
 </body>
 </html>
