@@ -7,6 +7,7 @@
     <title>Lil Workout</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="click.js"></script>
 </head>
 <body>
     <h1>Lil Workout</h1>
@@ -17,15 +18,17 @@
     <hr>
     <h1>Workouts</h1>
     <div id="WorkoutButtons">
-        <button class="WorkoutButton">Abs</button>
-        <button class="WorkoutButton">Legs</button>
-        <button class="WorkoutButton">Chest</button>
-        <button class="WorkoutButton">Cardio</button>
+        <button class="WorkoutButton" id="abs" onclick="onAbsClickEventHandler()">Abs</button>
+        <button class="WorkoutButton" id="legs" onclick="onLegsClickEventHandler()">Legs</button>
+        <button class="WorkoutButton" id="chest" onclick="onChestClickEventHandler()">Chest</button>
+        <button class="WorkoutButton" id="cardio" onclick="onCardioClickEventHandler()">Cardio</button>
+        
 
 
     </div>
     <div id="GenerateButton"> 
-        <button class="WorkoutButton">Generate Workout!</button>
+        <button class="WorkoutButton"><a href="workouts.html">GenerateButtonAD</a></button>
+        
     </div>
     <script>
         var quoteWriter = new Typed('#quote-display', {
@@ -34,7 +37,7 @@
             fadeOut: true,
             loop: true,
             typeSpeed: 25,
-            backDelay: 1000
+            backDelay: 7000
         });
     
     </script>
@@ -42,7 +45,8 @@
 <footer>
     <h1>Website created by:</h1>
     <p>Website created by John Zhen, Tim Zhen, Richard Ngo, Bexzod Abduvaliev</p>
-    <h1>Videos By</h1>
+    <h1>Videos By:</h1>
+    
 
 </footer>
 </html>

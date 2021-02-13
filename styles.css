@@ -27,11 +27,11 @@ hr{
     height: 100px;
     width: 200px;
     margin: 40px;
-    border-width: 5px;
+    border-width: 10px;
     font-size: 20px;
     border-style: outset;
     background-color: rgb(	253, 204, 149);
-    border-color: black;
+    border-color: rgb(42, 107, 168);
 }
 #GenerateButton{
     display: flex;
