@@ -42,7 +42,7 @@ function onLoad() {
 			var cell3 = row.insertCell(3);
 			cell0.innerHTML = "";
 			cell1.innerHTML = workout[i].getExercise(j).getName();
-			cell2.innerHTML = "20 seconds";
+			cell2.innerHTML = "30 seconds";
 			var img = document.createElement("img");
 			img.id = "exampleBtn";
 			img.src = "exampleBtn.png";

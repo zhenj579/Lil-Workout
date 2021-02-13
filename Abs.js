@@ -3,15 +3,16 @@ class Abs {
 	 constructor(url, exercises) {
 	 	this.url = "https://www.youtube.com/embed/ofTiKY3hYdE";
 	 	this.exercises = [
-	 		new Exercise("High Knee Taps", this.url, "90"),
-	 		new Exercise("Russian Twists", this.url, "82"),
-	 		new Exercise("Leg Raises", this.url, "109"),
-	 		new Exercise("Hip Raises", this.url, "260"),
-	 		new Exercise("Flutter Kicks", this.url, "323"),
-	 		new Exercise("Plank Knees to Elbow", this.url, "378"),
-	 		new Exercise("Chair Sit Ups", this.url, "442"),
-	 		new Exercise("Seated In and Outs", this.url, "497"),
-	 		new Exercise("Jumping Jacks", this.url, "560")
+	 		new Exercise("Jumping Jacks", this.url, "120"),
+	 		new Exercise("Bicycles", this.url, "172"),
+	 		new Exercise("High Knee Taps", this.url, "236"),
+	 		new Exercise("Russian twists", this.url, "294"),
+	 		new Exercise("Mountain Climbers", this.url, "356"),
+	 		new Exercise("Laying leg raises", this.url, "411"),
+	 		new Exercise("In and outs", this.url, "470"),
+	 		new Exercise("Plank side to side", this.url, "533"),
+	 		new Exercise("Star crunches", this.url, "594"),
+			new Exercise("High Knee Runs", this.url, "653")
 	 	];
 	 }
    
