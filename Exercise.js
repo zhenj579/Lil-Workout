@@ -19,7 +19,7 @@ class Exercise {
 	}
 
 	getLink() {
-		return this.url.concat("&t=").concat(this.timestamp);
+		return this.url.concat("?start=").concat(this.timestamp);
 	}
 
 }

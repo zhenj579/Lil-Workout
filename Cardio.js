@@ -1,16 +1,16 @@
 class Cardio {
 
 	 constructor(url, exercises) {
-	 	this.url = "https://www.youtube.com/watch?v=13ggcvTHETw";
+	 	this.url = "https://www.youtube.com/embed/13ggcvTHETw";
 	 	this.exercises = [
-	 	     new Exercise("Jumping Jacks", this.url, "1m28s"),
-             new Exercise("Burpees", this.url, "2m05s"),
-             new Exercise("Bicycles", this.url, "2m55s"),
-             new Exercise("In & Outs, Open & Close", this.url, "3m37s"),
-             new Exercise("Side to Side Jump Squats", this.url, "4m14s"),
-             new Exercise("Shoulder to Shoulder", this.url, "4m53s"),
-             new Exercise("Switching Lunges", this.url, "5m41s"),
-             new Exercise("High Knee Runs", this.url, "6m27s")
+	 	     new Exercise("Jumping Jacks", this.url, "88"),
+             new Exercise("Burpees", this.url, "125"),
+             new Exercise("Bicycles", this.url, "175"),
+             new Exercise("In & Outs, Open & Close", this.url, "217"),
+             new Exercise("Side to Side Jump Squats", this.url, "240"),
+             new Exercise("Shoulder to Shoulder", this.url, "293"),
+             new Exercise("Switching Lunges", this.url, "341"),
+             new Exercise("High Knee Runs", this.url, "387")
 	 	];
 	 }
 

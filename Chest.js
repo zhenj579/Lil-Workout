@@ -1,16 +1,17 @@
 class Chest {
 
 	 constructor(url, exercises) {
-	 	this.url = "https://www.youtube.com/watch?v=BkS1-El_WlE";
+	 	//https://www.youtube.com/embed/13ggcvTHETw
+	 	this.url = "https://www.youtube.com/embed/BkS1-El_WlE";
 	 	this.exercises = [
-	 	     new Exercise("Push Ups", this.url, "2m04s"),
-             new Exercise("90 Degree Hold", this.url, "2m52s"),
-             new Exercise("Push Ups In A Circle", this.url, "3m49s"),
-             new Exercise("Archer Push Ups", this.url, "4m47s"),
-             new Exercise("Explosive Neg. Push Ups", this.url, "6m02s"),
-             new Exercise("Incline Diamond Push Ups", this.url, "7m20s"),
-             new Exercise("Elevated Push Ups", this.url, "8m39s"),
-             new Exercise("Push Up", this.url, "9m19s")
+	 	     new Exercise("Push Ups", this.url, "124"),
+             new Exercise("90 Degree Hold", this.url, "172"),
+             new Exercise("Push Ups In A Circle", this.url, "229"),
+             new Exercise("Archer Push Ups", this.url, "287"),
+             new Exercise("Explosive Neg. Push Ups", this.url, "362"),
+             new Exercise("Incline Diamond Push Ups", this.url, "440"),
+             new Exercise("Elevated Push Ups", this.url, "519"),
+             new Exercise("Push Up", this.url, "559")
 	 	];
 	 }
 
