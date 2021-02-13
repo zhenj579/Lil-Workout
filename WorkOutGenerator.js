@@ -28,48 +28,49 @@ function onLoad() {
 	}
 
 	var table = document.getElementById("table");
-	var i;
-	for(i = 0; i < workout.length; i++)
-	{
-		var j;
-		var sz = workout[i].getMax();
-		for(j = sz-1; j >= 0; j--)
-		{
-			var row = table.insertRow(i+1);
+	var nameArray = [];
+	var vidArray = [];
+
+	var max = 0;
+	for(var i = 0; i < workout.length; i++) {
+		max += workout[i].getMax();
+	}
+
+	for(var work = 0; work < max; work++)  {
+			var row = table.insertRow(work+1);
 			var cell0 = row.insertCell(0);
+			cell0.innerHTML = work + 1;
 			var cell1 = row.insertCell(1);
+			cell1.innerHTML = "test";
 			var cell2 = row.insertCell(2);
+			cell2.innerHTML = "30 Seconds";
 			var cell3 = row.insertCell(3);
-			cell0.innerHTML = "";
-			cell1.innerHTML = workout[i].getExercise(j).getName();
-			cell2.innerHTML = "30 seconds";
+			nameArray.push(cell1);
+			vidArray.push(cell3);
+	}
+
+	var threshhold = 0;
+	for(var i = 0; i < workout.length; i++) {
+		for(var j = 0; j < workout[i].getMax(); j++) {
+			nameArray[j + threshhold].innerHTML = workout[i].getExercise(j).getName();
 			var img = document.createElement("img");
 			img.id = "exampleBtn";
 			img.src = "exampleBtn.png";
-			img.alt = j + i * workout[i].getMax();
-
-
-			var video = document.createElement("iframe");
-			video.width = "300";
-			video.height = "200";
-			video.src = workout[i].getExercise(j).getLink();
-			video.frameborder = "0";
-			video.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-			video.allowFullscreen = true;
-			img.onclick = function() {
+			img.alt = j + " " + threshhold + " " + workout[i].getExercise(j).getLink();
+			img.addEventListener('click', function() {
 				this.remove();
-				cell3.appendChild(video);
-			}
-			cell3.appendChild(video);
+				var vid = document.createElement("iframe");
+				vid.width = 300;
+				vid.height = 200;
+				vid.frameborder = "0";
+				var arr = this.alt.split(" ");
+				vid.src = arr[2];
+				vid.allowFullscreen = true;
+				vid.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+				vidArray[parseInt(arr[0]) + parseInt(arr[1])].appendChild(vid);
+			});
+			vidArray[j + threshhold].appendChild(img);	
 		}
+		threshhold += workout[i].getMax();
 	}
-
-	var number = 1;
-	for(var index in table.rows) {
-		var row = table.rows[number];
-		var cell = row.cells[0];
-		cell.innerHTML = number;
-		number++;
-	}
-
 }
