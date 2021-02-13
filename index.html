@@ -15,26 +15,34 @@
     <script src="Abs.js"></script>
 </head>
 <body>
-    <h1>Lil Workout</h1>
-    <h2>A Lil Workout a day keeps the lipids away</h2>
-    <p id="description"> Due to Covid 19, most people are unable to do physical activity due to the restriction of ...</p>
-    <span id="quote-display"></span>
-    <br>
-    <hr>
-    <h1>Workouts</h1>
-    <div id="WorkoutButtons">
-        <button class="WorkoutButton" id="abs" onclick="onAbsClickEventHandler()">Abs</button>
-        <button class="WorkoutButton" id="legs" onclick="onLegsClickEventHandler()">Legs</button>
-        <button class="WorkoutButton" id="chest" onclick="onChestClickEventHandler()">Chest</button>
-        <button class="WorkoutButton" id="cardio" onclick="onCardioClickEventHandler()">Cardio</button>
-        
-
+    <div>
+        <h1 id="tittle">Lil Workout</h1>
+        <h2>A Lil Workout a day keeps the lipids away</h2>
+        <p id="description"> Due to Covid 19, most people are unable to do physical activity due to the restriction of ...</p>
+        <span id="quote-display"></span>
+        <br>
 
     </div>
-    <div id="GenerateButton"> 
-        <button class="WorkoutButton"><a href="workouts.html">GenerateButtonAD</a></button>
-        
+    
+    <div id="s2">
+        <h1 id="tittle">Workouts</h1>
+
+        <div id="WorkoutButtons">
+            <button class="WorkoutButton" id="abs" style="border-style: outset;" onclick="onAbsClickEventHandler()">Abs</button>
+            <button class="WorkoutButton" id="legs" style="border-style: outset;" onclick="onLegsClickEventHandler()">Legs</button>
+            <button class="WorkoutButton" id="chest" style="border-style: outset;" onclick="onChestClickEventHandler()">Chest</button>
+            <button class="WorkoutButton" id="cardio" style="border-style: outset;" onclick="onCardioClickEventHandler()">Cardio</button>
+            
+
+
+        </div>
+        <div id="GenerateButton"> 
+            <button class="WorkoutButton"><a href="workouts.html">GenerateButtonAD</a></button>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pE-dkFVYsow?start=489" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
     </div>
+    
     <script>
         var quoteWriter = new Typed('#quote-display', {
             strings: ["Showing off is the fool's idea of glory",'Adapt what is useful, reject what is useless, and add what is specifically your own.','Knowledge will give you power, but character respect.'],
