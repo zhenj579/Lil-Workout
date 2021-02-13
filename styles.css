@@ -1,10 +1,23 @@
 body{
-    background-color: rgb(	253, 204, 149);
-}
+    background-color:rgb(	226, 240, 249);
+    background-size: auto;
 
+
+    
+}
+#s2{
+    
+    background-color: rgb(176, 221, 228);
+    margin-top: 500px;
+    padding-bottom: 500px;
+}
 h1{
+    
     text-decoration: underline;
     text-decoration-color: black;
+    
+}
+#tittle{
     text-align: center;
 }
 h2{
@@ -30,8 +43,8 @@ hr{
     border-width: 10px;
     font-size: 20px;
     border-style: outset;
-    background-color: rgb(	253, 204, 149);
-    border-color: rgb(42, 107, 168);
+    background-color: lightblue;
+    border-color: white;
 }
 #GenerateButton{
     display: flex;

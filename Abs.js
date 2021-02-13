@@ -4,7 +4,7 @@ class Abs {
 	 	this.url = "https://www.youtube.com/watch?v=ofTiKY3hYdE";
 	 	this.exercises = [
 	 		new Exercise("High Knee Taps", this.url, "1m30s"),
-	 		new Exercise("Russian Wwists", this.url, "2m22s"),
+	 		new Exercise("Russian Twists", this.url, "2m22s"),
 	 		new Exercise("Leg Raises", this.url, "3m19s"),
 	 		new Exercise("Hip Raises", this.url, "4m20s"),
 	 		new Exercise("Flutter Kicks", this.url, "5m23s"),
