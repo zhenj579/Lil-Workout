@@ -6,12 +6,20 @@ h1
 {
     text-align: center;
 }
+
 table,th,td
 {
-    border: 1px solid black;
-    border-spacing: 0cm;
+    border: 2px solid black;
+    border-spacing:0px;
     text-align: center;
 }
+th
+{
+    font-size: 35px;
+    background-color: black;
+    color:pink;
+}
+
 table
 {
     width:100%;
