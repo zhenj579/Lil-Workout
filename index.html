@@ -18,11 +18,12 @@
     <div>
         <h1 id="tittle">Lil Workout</h1>
         <h2>A Lil Workout a day keeps the lipids away</h2>
-        <p id="description"> Due to Covid 19, most people are unable to do physical activity due to the restriction and fear of going
-            outside. As a result, we made a website that would combat this problem through introducing some workouts that people could
-            do at home. All you have to do is choose which body parts that you would like to work on down below and our website will 
-            generate a routine for you to do. Do NOT forget to stretch before you start working out!
+        <p id="description">
+            <i > Due to Covid 19, most people are unable to do physical activity due to the restriction and fear of going outside. As a result, we made a website that would combat this problem by introducing some workouts that people could do at home, without any equipment or much space. All you have to do is choose which body parts that you would like to work on down below and our website will generate a routine for you to do. Do NOT forget to stretch before you start working out!
+            </i>
         </p>
+        
+
         <span id="quote-display"></span>
         <br>
 
@@ -32,17 +33,31 @@
         <h1 id="tittle">Workouts</h1>
 
         <div id="WorkoutButtons">
-            <button class="WorkoutButton" id="abs" style="border-style: outset;" onclick="onAbsClickEventHandler()">Abs</button>
-            <button class="WorkoutButton" id="legs" style="border-style: outset;" onclick="onLegsClickEventHandler()">Legs</button>
-            <button class="WorkoutButton" id="chest" style="border-style: outset;" onclick="onChestClickEventHandler()">Chest</button>
-            <button class="WorkoutButton" id="cardio" style="border-style: outset;" onclick="onCardioClickEventHandler()">Cardio</button>
+            <button class="WorkoutButton" id="abs" style="border-style: outset;" onclick="onAbsClickEventHandler()"> <img src="abspic.png" alt=""> <p>Abs</p></button>
+            <button class="WorkoutButton" id="legs" style="border-style: outset;" onclick="onLegsClickEventHandler()"><img src="legpic.png" alt=""> <p>Legs</p></button>
+            <button class="WorkoutButton" id="chest" style="border-style: outset;" onclick="onChestClickEventHandler()"><img src="chestpic.png" alt=""> <p>Chest</p></button>
+            <button class="WorkoutButton" id="cardio" style="border-style: outset;" onclick="onCardioClickEventHandler()"><img src="cardiopic.png.crdownload" alt=""> <p>Cardio</p></button>
             
         </div>
         <div id="GenerateButton"> 
             <button class="WorkoutButton" onclick="onGenerateClickEventHandler()"><a href="workouts.html">GenerateButtonAD</a></button>
         </div>
+        <footer>
+            <h1>Website created by:</h1>
+            <p id="soruce">Website created by John Zhen, Tim Zhen, Richard Ngo, Bexzod Abduvaliev</p>
+            <h1>Videos By:</h1>
+            <p id="soruce">
+                <a href="https://www.youtube.com/user/TheMiamiTrainer"> THENX </a>
+            </p>
+            <p id="soruce">
+                <a href="https://www.youtube.com/channel/UCaBqRxHEMomgFU-AkSfodCw"> Chris Heria </a>
+            </p>
+            
+        
+        </footer>
 
     </div>
+
     
     <script>
         var quoteWriter = new Typed('#quote-display', {
@@ -56,17 +71,5 @@
     
     </script>
 </body>
-<footer>
-    <h1>Website created by:</h1>
-    <p>Website created by John Zhen, Tim Zhen, Richard Ngo, Bexzod Abduvaliev</p>
-    <h1>Videos By:</h1>
-    <p>
-        <a href="https://www.youtube.com/user/TheMiamiTrainer"> THENX </a>
-    </p>
-    <p>
-        <a href="https://www.youtube.com/channel/UCaBqRxHEMomgFU-AkSfodCw"> Chris Heria </a>
-    </p>
-    
 
-</footer>
 </html>
