@@ -11,7 +11,7 @@ class Chest {
              new Exercise("Explosive Neg. Push Ups", this.url, "362"),
              new Exercise("Incline Diamond Push Ups", this.url, "440"),
              new Exercise("Elevated Push Ups", this.url, "519"),
-             new Exercise("Push Up", this.url, "559")
+             new Exercise("Single Push Up", this.url, "559")
 	 	];
 	 }
 
