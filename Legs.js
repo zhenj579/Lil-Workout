@@ -1,7 +1,7 @@
 class Legs {
 
 	 constructor(url, exercises) {
-	 	this.url = "https://www.youtube.com/watch?v=_hIFF8G-BG0";
+	 	this.url = "https://www.youtube.com/embed/_hIFF8G-BG0";
 	 	this.exercises = [
 	 		new Exercise("Side Lunges", this.url, "158"),
 	 		new Exercise("Side to Side Jump Squats", this.url, "230"),

@@ -1,7 +1,7 @@
 class Abs {
 
 	 constructor(url, exercises) {
-	 	this.url = "https://www.youtube.com/watch?v=ofTiKY3hYdE";
+	 	this.url = "https://www.youtube.com/embed/ofTiKY3hYdE";
 	 	this.exercises = [
 	 		new Exercise("High Knee Taps", this.url, "90"),
 	 		new Exercise("Russian Twists", this.url, "82"),
